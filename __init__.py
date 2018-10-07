@@ -37,9 +37,9 @@ class IfSkill(MycroftSkill):
     def handle_definition_reason_intent(self, message):
         reason_kw = message.data.get("ReasonKeyword")
         if reason_kw:
-        self.speak_dialog("reason")
+            self.speak_dialog("reason")
         else:
-        self.speak_dialog("definition")
+            self.speak_dialog("definition")
 
     def stop(self):
         pass
