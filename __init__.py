@@ -31,7 +31,7 @@ class IfSkill(MycroftSkill):
 
     def initialize(self):
         definition_reason_intent = IntentBuilder("DefinitionReasonIntent"). \
-            require("WhatKeyword").require("CodeKeyword").optionally("ReasonKeyword").build()
+            require("WhatKeyword").require("LionKeyword").optionally("ReasonKeyword").build()
         self.register_intent(definition_reason_intent, self.handle_definition_reason_intent)
 
     def handle_definition_reason_intent(self, message):
