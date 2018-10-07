@@ -1,7 +1,7 @@
 {
-  "utterance": "Thank you",
-  "intent_type": "ThankYouIntent",
+  "utterance": "What is code",
+  "intent_type": "DefinitionIntent",
   "intent": {
-    "ThankYouKeyword": "thank you"
+    "ThankYouKeyword": "a system of rules to transfer information"
   }
 }
